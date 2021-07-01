@@ -1,5 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
+/* user-contact data model
+// consist with: id, firstName, lastName, email, city, country */
 @Entity()
 export class Contact {
     @PrimaryGeneratedColumn()
